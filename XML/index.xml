@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Email [
+    <!ELEMENT Email (To,From,Subject,Body)>
+    <!ELEMENT To (#PCDATA)>
+    <!ELEMENT From (#PCDATA)>
+    <!ELEMENT Subject (#PCDATA)>
+    <!ELEMENT Body (#PCDATA)>
+]>
+
+
+<Email>
+
+    <To> Sir Bilal </To>
+    <From>Sir Hassan</From>
+    <Subject>Leave Request</Subject>
+    <Body>Hello! This is my email body</Body>
+
+
+</Email>
