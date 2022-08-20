@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE Email [
-    <!ELEMENT Email (To,From,Subject,Body)>
-    <!ELEMENT To (#PCDATA)>
-    <!ELEMENT From (#PCDATA)>
-    <!ELEMENT Subject (#PCDATA)>
-    <!ELEMENT Body (#PCDATA)>
+
+<!DOCTYPE Emails SYSTEM "my.dtd" [
+
+<!ENTITY North "Aptech North">
+<!ENTITY South "Aptech South">
+
 ]>
 
 
-<Email>
-
-    <To> Sir Bilal </To>
-    <From>Sir Hassan</From>
-    <Subject>Leave Request</Subject>
-    <Body>Hello! This is my email body</Body>
+<Emails xmlns:A="https://www.yahoo.com" xmlns:B="https://www.gmail.com">
 
 
-</Email>
+    <A:Email>
+
+        <A:To center="aptech"> Sir Bilal </A:To>
+        <A:From name="abc">Sir Hassan</A:From>
+        <A:Subject topic="increment">Leave Request</A:Subject>
+        <A:Body></A:Body>
+
+
+    </A:Email>
+    <B:Email>
+
+        <B:To center="aptech"> Sir Haris </B:To>
+        <B:From name="abc">Sir Hassan</B:From>
+        <B:Subject topic="increment">Leave Request</B:Subject>
+        <B:Body content="para">They are my entities &North; &South; </B:Body>
+
+
+</B:Email>
+    <!-- <email>
+        <To center="aptech"> Sir Bilal </To>
+        <From name="abc">Sir Hassan</From>
+        <Subject topic="increment">Leave Request</Subject>
+        <Body>Hello! This is my email body</Body>
+        <Greetings>Thanks</Greetings>
+        <Date>20-Aug-2022</Date>
+    </email> -->
+
+
+</Emails>

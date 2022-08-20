@@ -1,0 +1,25 @@
+<!ELEMENT Emails (A:Email , B:Email)>
+<!ELEMENT email (To, From, Subject, Body, Greetings,Date)>
+<!ELEMENT A:Email (A:To, A:From, A:Subject, A:Body)>
+<!ELEMENT A:To (#PCDATA)>
+<!ELEMENT A:From (#PCDATA)>
+<!ELEMENT A:Subject (#PCDATA)>
+<!ELEMENT A:Body (#PCDATA)>
+<!ELEMENT B:Email (B:To, B:From, B:Subject, B:Body)>
+<!ELEMENT B:To (#PCDATA)>
+<!ELEMENT B:From (#PCDATA)>
+<!ELEMENT B:Subject (#PCDATA)>
+<!ELEMENT B:Body (#PCDATA)>
+
+<!ATTLIST A:To center CDATA #REQUIRED>
+<!ATTLIST A:From name CDATA #IMPLIED>
+<!ATTLIST A:Body content CDATA "mycontent">
+<!ATTLIST A:Subject topic (leave|tour|increment) "leave">
+<!ATTLIST B:To center CDATA #REQUIRED>
+<!ATTLIST B:From name CDATA #IMPLIED>
+<!ATTLIST B:Body content CDATA "mycontent">
+<!ATTLIST B:Subject topic (leave|tour|increment) "leave">
+<!ATTLIST Emails xmlns:A CDATA "https://www.yahoo.com">
+<!ATTLIST Emails xmlns:B CDATA "https://www.gmail.com">
+<!ELEMENT Greetings (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
