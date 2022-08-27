@@ -1,0 +1,17 @@
+#myname{
+    color: rgb(255, 4, 4);
+    display: block;
+text-align: center;
+}
+
+
+stores{ 
+    background-color: aqua;
+
+}
+
+store{
+    display: block;
+    background-color: blueviolet;
+    
+}

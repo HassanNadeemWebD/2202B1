@@ -1,5 +1,4 @@
 <!ELEMENT Emails (A:Email , B:Email)>
-<!ELEMENT email (To, From, Subject, Body, Greetings,Date)>
 <!ELEMENT A:Email (A:To, A:From, A:Subject, A:Body)>
 <!ELEMENT A:To (#PCDATA)>
 <!ELEMENT A:From (#PCDATA)>
@@ -10,7 +9,7 @@
 <!ELEMENT B:From (#PCDATA)>
 <!ELEMENT B:Subject (#PCDATA)>
 <!ELEMENT B:Body (#PCDATA)>
-
+<!ELEMENT email (To, From, Subject, Body, Greetings,Date)>
 <!ATTLIST A:To center CDATA #REQUIRED>
 <!ATTLIST A:From name CDATA #IMPLIED>
 <!ATTLIST A:Body content CDATA "mycontent">

@@ -3,6 +3,7 @@
 
 <!DOCTYPE Emails SYSTEM "my.dtd" [
 
+
 <!ENTITY North "Aptech North">
 <!ENTITY South "Aptech South">
 
@@ -16,7 +17,7 @@
 
         <A:To center="aptech"> Sir Bilal </A:To>
         <A:From name="abc">Sir Hassan</A:From>
-        <A:Subject topic="increment">Leave Request</A:Subject>
+        <A:Subject topic="increment">Leave Request  </A:Subject>
         <A:Body></A:Body>
 
 
@@ -26,7 +27,7 @@
         <B:To center="aptech"> Sir Haris </B:To>
         <B:From name="abc">Sir Hassan</B:From>
         <B:Subject topic="increment">Leave Request</B:Subject>
-        <B:Body content="para">They are my entities &North; &South; </B:Body>
+        <B:Body content="para">They are my entities </B:Body>
 
 
 </B:Email>
