@@ -109,4 +109,13 @@ for (let i = 0;  i <=100 ; i++) {
 }
 // document.getElementById('myjson').innerHTML = json;
 
-
+let num = prompt("Enter any Number for Table");
+parseInt(num);
+for(let i = 1; i <= 10; i++ )
+{
+    let result;
+    result = num * i;
+    //  3 x 2 = 6
+    console.log( num + "\n x" + "\n" + i + "\t =" +  "\t" + result )
+}
+// console.log(result)   error ! not defined 
