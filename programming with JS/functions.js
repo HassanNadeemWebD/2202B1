@@ -27,16 +27,16 @@ console.log(
     myObj2)
 
 
-function add(num1, num2,callback) {
-console.log("add")
-let sum = num1 + num2;
-callback(sum)
-console.log(sum)
+function add(num1, num2, callback) {
+    console.log("add")
+    let sum = num1 + num2;
+    callback(sum)
+    console.log(sum)
     // document.write(sum)
     // console.log(sum)
     // callback(sum)
 
-// sum == addition
+    // sum == addition
 
 }
 
@@ -51,8 +51,9 @@ let userInputNum2 = parseInt(prompt("Enter Number 2"))
 
 
 
-add(userInputNum1, userInputNum2 ,display )
+add(userInputNum1, userInputNum2, display)
 
 // setTimeout(add(2,6) ,3000)
 // setInterval("add(2,6)" ,1000)
-  
+
+
