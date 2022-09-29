@@ -65,4 +65,4 @@ let getValue = () => {
     document.getElementById("welcome").innerHTML = `Welcome ${localStorage.getItem("Name")}`
 
 
-}
+}   
