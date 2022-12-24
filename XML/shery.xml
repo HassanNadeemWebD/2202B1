@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Emails>
+    <Email>
+        <To>today</To>
+        <From>tomorrow</From>
+    </Email>
+    <Email>
+        <To>yesterday</To>
+        <From>tomorrow</From>
+    </Email>
+    <Email>
+        <To>tomorrow</To>
+        <From>Today</From>
+    </Email>
+    <Email>
+        <To>today</To>
+        <From>tomorrow</From>
+    </Email>
+    <Email>
+        <To>today</To>
+        <From>tomorrow</From>
+    </Email>
+
+
+
+</Emails>
